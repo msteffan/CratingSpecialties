@@ -1,0 +1,589 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+* { 
+    box-sizing: border-box; 
+}
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font-family: 'PT Serif', serif;
+    background-position: fixed;
+}
+
+p {
+    font-family: Source Sans Pro;
+    font-size: .9em;
+
+
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.landing-page-main {
+    padding-top: 120px;
+    padding-bottom: 10px;
+}
+
+
+/* ===================
+    ALL: Main Theme
+   =================== */
+
+.header-container {
+    border-bottom: 20px solid #766767;
+    width: 100%;
+    position: fixed;
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid #766767;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #bdbdbd}
+
+.title {
+    color: white;
+    font-size: 3em;
+    font-family: Oswald;
+    font-variant: small-caps;
+    /* text-transform: lowercase;*/
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+.request-that-quote {
+    margin: 0 auto;
+
+
+
+}
+
+
+
+
+
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background: #766767;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 15px 0;
+
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.quote-request aside {
+    color: black;
+    padding: 0px 5% 10px;
+ 
+
+
+}
+
+.main-container.landing-page-main {
+    padding-top: 350px;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+    clear: both;
+}
+
+
+
+.first-product-box {
+    margin-left: 15px;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.header-image {
+    top: 107px;
+    width: 100%;
+    height: 450px;
+    background: url(http://www.hdwallpap.com/wp-content/uploads/2013/08/beach_rest_place-wide.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
+
+}
+
+.aside-button {
+    height: 50%;
+    width: 80%;
+    color: white;
+    background-color: #766767;
+    margin-right: 10%;
+    margin-left: 10%;
+    box-shadow: 0px 2px 2px 0px gray;
+    border-radius: 2px;
+    transition: background-color 1s ease;
+
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 700;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    text-align: center;
+
+}
+
+button:hover {
+    background-color: black;
+
+
+}
+
+.learn-more-button {
+    height: 50%;
+    width: 50%;
+    color: white;
+    background-color: #766767;
+    font-family: 'PT Serif', serif;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 2px 0px gray;
+    border-radius: 2px;
+    transition: background-color 1s ease;
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 700;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    text-align: center;
+
+}
+
+.body-image-one {
+    width: 100%;
+    height: 300px;
+    background: url(http://3.bp.blogspot.com/-Tkj8VgaKKyg/T_gDpy5CchI/AAAAAAAAA8A/9Xvf6finqZo/s1600/Denis+Island+In+Seychelles.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;   
+
+}
+
+a.title-link {
+    text-decoration: none;
+    color: white;
+}
+
+.first-product-box {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 15px;
+    float: left;
+    background-color: #bdbdbd;
+    text-align: center;
+    padding: 0px 5% 10px;
+
+
+}
+.product-box {
+    width: 300px;
+    height: 300px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    float: left;
+    background-color: #bdbdbd;
+    display: inline-block;
+    text-align: center;
+    padding: 0px 5% 10px;
+
+}
+
+.map {
+    height: 400px;
+    width: 45%;
+    background: url("../img/map.png");
+    float: right;
+    margin-top: 130px;
+    margin-right: 10%;
+}
+
+a.link-without-style {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: 101%;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+    .main {
+        margin-top: 50px;
+    }
+
+    .first-product-box {
+        margin-left: 15px;
+    }
+
+    .main-container.landing-page-main {
+    padding-top: 130px;
+    }
+
+    .footer-column {
+    clear: both;
+    float: right;
+    position: absolute;
+    margin-top: -177px;
+    margin-left: 300px;
+}
+
+
+
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline-block;
+        width: 100px;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 915px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        margin-top: 10px;
+        float: right;
+        width: 50%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+   
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .quote-request aside {
+        width: 30%;
+        clear: left;
+        float: right;
+        position: fixed;
+        top: 130px;
+        left: 60%;
+        background-color: #bdbdbd;
+
+    }
+
+    .narrow-article
+     {
+        width: 39%;
+    }
+    
+    .footer-container {
+        clear: both;
+    }
+
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
