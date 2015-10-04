@@ -1,7 +1,7 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
-* { 
-    box-sizing: border-box; 
+* {
+    box-sizing: border-box;
 }
 
 html,
@@ -179,7 +179,7 @@ nav a:hover {
 .quote-request aside {
     color: black;
     padding: 0px 5% 10px;
- 
+
 
 
 }
@@ -213,14 +213,14 @@ nav a:hover {
    ========================================================================== */
 
 .header-image {
-    top: 107px;
-    width: 100%;
-    height: 450px;
-    background: url(http://www.hdwallpap.com/wp-content/uploads/2013/08/beach_rest_place-wide.jpg) no-repeat center center fixed;
+    /*position: absolute;*/
+    /*width: 100%;*/
+    height: 650px;
+    background: url(../img/CratingSpecialtiesPhotos/hardware_crates/hero.JPG) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;    
+    background-size: cover;
 
 }
 
@@ -278,7 +278,7 @@ button:hover {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;   
+    background-size: cover;
 
 }
 
@@ -309,6 +309,11 @@ a.title-link {
     text-align: center;
     padding: 0px 5% 10px;
 
+}
+
+.product-description{
+    padding-top: 40%;
+    font-size: 1.5rem;
 }
 
 .map {
@@ -419,7 +424,7 @@ a.link-without-style {
 /* ============
     WIDE: Main
    ============ */
-   
+
 
     .main article {
         float: left;
@@ -441,7 +446,7 @@ a.link-without-style {
      {
         width: 39%;
     }
-    
+
     .footer-container {
         clear: both;
     }
